@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500&family=Open+Sans:wght@300;400;500&family=Poppins:wght@100;200;300;400;500&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+body {
+    background-image: url('../img/fundo.jpeg');
+    background-size: cover;
+    background-position-y: -800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+}
+
+#container {
+    padding: 4rem;
+    background-color: rgb(238, 240, 246);
+    opacity: 95%;
+    border-radius: 8px;
+
+}
+
+#dados {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+#title {
+    font-size: 1.90rem;
+    position: relative;
+}
+
+#title::after {
+    position: absolute;
+    content: '';
+    background-color: rgb(203, 21, 0);
+    width: 7rem;
+    height: 3px;
+    bottom: 0;
+    left: 0;
+    border-radius: 5px;
+
+}
+
+label {
+    color: rgb(203, 21, 0);
+    font-size: 1.1rem;
+    font-weight: 580;
+}
+
+#txt1 {
+
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.3rem;
+    border-radius: 3px;
+    margin-top: 3px;
+    background-color: transparent;
+    border: none;
+    width: 90%;
+    font-size: 1.2rem;
+
+}
+
+#txt1::-webkit-outer-spin-button,
+#txt1::-webkit-inner-spin-button {
+    appearance: none;
+}
+
+#txt2::-webkit-outer-spin-button,
+#txt2::-webkit-inner-spin-button {
+    appearance: none;
+}
+
+#txt3::-webkit-outer-spin-button,
+#txt3::-webkit-inner-spin-button {
+    appearance: none;
+
+}
+
+
+
+
+
+input:focus {
+    outline: none;
+}
+
+
+#txt2 {
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.3rem;
+    border-radius: 3px;
+    margin-top: 3px;
+    background-color: transparent;
+    border: none;
+    width: 90%;
+    font-size: 1.2rem;
+
+
+}
+
+#txt3 {
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.3rem;
+    border-radius: 3px;
+    margin-top: 3px;
+    background-color: transparent;
+    border: none;
+    width: 90%;
+    font-size: 1.2rem;
+
+}
+
+#button {
+    border: none;
+    font-size: 1.30rem;
+    font-weight: bold;
+    background-color: rgb(219, 74, 0);
+    height: 7vh;
+    width: 40vh;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    color: #fff;
+  
+
+
+
+                
+
+}
+
+#button :hover {
+    scale: 1.1;
+    transition: 0.5s;
+}
+
+
+#res {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    border-top: 5px solid #ffffff34;
+    padding: 0.75rem 0;
+    color: #01791A;
+    font-size: 25px;
+
+}
+
+#check {
+    margin-bottom: 20px;
+    font-weight: 580;
+}
